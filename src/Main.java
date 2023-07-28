@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Current year for the calendar
-        int currentYear = 2023;
+        Year currentYear = new Year(2023);
 
         // Create a Calendar object
         Calendar calendar = new Calendar(currentYear);
